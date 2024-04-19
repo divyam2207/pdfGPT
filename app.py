@@ -78,6 +78,7 @@ def main():
     st.title("pdfGPT : Interact with your PDFs/Docs")
     # Initialize Streamlit
     st.sidebar.title("Document Processing")
+    st.write("Expect a little delay as I am using open-source LLM models")
     uploaded_files = st.sidebar.file_uploader("Upload files", accept_multiple_files=True)
 
 
